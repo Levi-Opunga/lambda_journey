@@ -8,11 +8,11 @@ page:
     
 template:
   # Uncomment this to get neuron-style pages
-  #name: /templates/layouts/note
+  name: /templates/layouts/note
   
- # layout:
-  #    note:
-   #     containerClass: container w-full md:w-[80%] md:mx-auto
+  layout:
+    note:
+      containerClass: container w-full md:w-[80%] md:mx-auto
        
   theme: blue
 
