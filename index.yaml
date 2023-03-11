@@ -18,12 +18,12 @@ template:
 
   # You can add your own variables here, like editBaseUrl.
   # See after-note.tpl to see where editBaseUrl gets used.
-  editBaseUrl: 
+  editBaseUrl: https://github.com/Levi-Opunga/mindscape/blob/main 
 
 
 
   sidebar:
-    collapsed: true
+    collapsed: false
 
   # If you are hosting on GitLab Pages, you may want to remove this.
   urlStrategy: pretty
