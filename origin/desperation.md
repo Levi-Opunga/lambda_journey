@@ -19,5 +19,5 @@ Nothing beats thrill of when it first clicks in your brain that nobody on the in
 I felt free and unrestricted for the first time and I could simply say what i was feeling without consequence to a bunch of strangers who I felt a meaningless yet deep connection forged by lack of care masqueraded as lack of judgement and acceptance. Months on end my insights on many on  various topics changed and i started to question, wonder, to imagine , to think, read , conclude and forge opinions of my own. Frankly I cannot say the opinions formed were my thoughts purely rather a culmination of various newly acquired influences. Intellectual satisfaction, a new unmatched feeling or that's what I thought.
 
 ## First Chapter
-
+...
 ‍
