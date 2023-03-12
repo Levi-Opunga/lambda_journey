@@ -8,15 +8,15 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    origin – Mindscape
+    Setting Up tailwind CSS the way I like it – Mindscape
   </title>
   
     
-      <meta property='og:description' content />
+      <meta property='og:description' content='Paste this into your tailwind config' />
       <meta property='og:site_name' content='Mindscape' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='origin' />
+      <meta property='og:title' content='Setting Up tailwind CSS the way I like it' />
     
     
       <base href='/mindscape/' />
@@ -259,11 +259,26 @@
             <li>
 
   <div class='text-gray-900 forest-link'>
+    <a href='commons.html'>
+      commons
+    </a>
+  </div>
+
+  
+    <ul>
+      
+        <li>
+
+  <div class='text-gray-900 forest-link'>
     <a href=''>
       <span class='math inline'>\(\lambda\)</span>
     </a>
   </div>
 
+  
+</li>
+      
+    </ul>
   
 </li>
           
@@ -287,42 +302,64 @@
             <main class='px-4 py-4'>
               <h1 class='flex items-end justify-center mb-4 p-3 bg-blue-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    origin
+    Setting Up tailwind CSS the way I like it
   </a>
 </h1>
               <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
-  <nav>
-  <div class='mb-8'>
-    <header data-nosnippet class='pb-2 mb-2 font-semibold text-gray-600'>
-      Pages matching path './*'
-    </header>
-    <ul>
-      
-        <li>
-          <div class='flex flex-wrap my-2'>
-            
-              <span data-nosnippet class='mr-2 text-right text-gray-600'>
-              </span>
-            
-            <a class='flex-1 text-blue-600 mavenLinkBold border-l-2 pl-2 hover:underline' href='origin/desperation.html'>
-              Desperation
-            </a>
-          </div>
-        </li>
-      
-    </ul>
-  </div>
-</nav><div class='text-gray-400 border-t-2 inline-block pt-0.5'>
+  <h2 id='plain-html' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Plain HTML</h2><div class='py-0.5 mb-3 text-sm'><pre><code class='bash language-bash'>npm install -D tailwindcss
+npx tailwindcss init
+    </code></pre></div>
     <p class='mb-3'>
-      Note: To override the auto-generated content here, create a file named one of: <span class='font-mono text-sm'>origin.md, origin.org</span>
+      Paste this into your tailwind config
     </p>
-  </div>
+  <div class='py-0.5 mb-3 text-sm'><pre><code class='javascript language-javascript'>/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}</code></pre></div>
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      I dont use a src folder
+    </p>
+  
+    </blockquote>
+  
+    <p class='mb-3'>
+      Paste this into your css file
+    </p>
+  <div class='py-0.5 mb-3 text-sm'><pre><code class='css language-css'>@tailwind base;
+@tailwind components;
+@tailwind utilities;</code></pre></div>
+    <p class='mb-3'>
+      To start watching the files run
+    </p>
+  <div class='py-0.5 mb-3 text-sm'><pre><code class='bash language-bash'>npx tailwindcss -i ./{index.css} -o ./dist/{output.css} --watch</code></pre></div>
+    <p class='mb-3'>
+      Replace index and output with whichever files you want to be your input and output
+    </p>
+  
+    <p class='mb-3'>
+      Link the output.css file to the html page you want to style
+    </p>
+  
+    <p class='mb-3'>
+      I know this looks alot like the tailwind css documentation but the goal of this is to eventually write an automation script for this, react and nextjs setup.
+    </p>
+  
+    <p class='mb-3'>
+      Till next time …
+    </p>
+  
 
   <div class='flex items-center justify-center mt-2'>
   
     
-      <a class='text-gray-300 hover:text-blue-600 text-sm' title='Edit this page on GitHub' href='https://github.com/Levi-Opunga/mindscape/blob/main/origin.md'>
+      <a class='text-gray-300 hover:text-blue-600 text-sm' title='Edit this page on GitHub' href='https://github.com/Levi-Opunga/mindscape/blob/main/commons/tailwind.md'>
         <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
           <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z'></path>
         </svg>
