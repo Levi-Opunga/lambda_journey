@@ -1,4 +1,4 @@
-![image](assets/01kgv4-20230521050554-gc8imgj.jpg)
+![image](../assets/01kgv4-20230521050554-gc8imgj.jpg)
 
 # N
 
