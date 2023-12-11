@@ -1,0 +1,6 @@
+---
+~
+---
+## Dear lover
+
+I don't really know how to best explain it, it's a feeling of joy, anxiety and peace all at the same time. Just one look was all it took. I'm now talking to myself saying "I've never met someone like you", yet I've never been graced by your presence let alone even taken a breath of the same air as you. Its all in my head and yes I know. I'm happy in my blissful day dream. I see color once more and all what had lost meaning to me has now some flooding back in my in my mind. Suddenly it all has a deeper meaning and it goes beyond mere lilts a songstress or the mellifluous tremors of a violin. I'm all alone yet happy just knowing of your existence and that I am yours for when the time is right. Convinced all what which the universe has hurled at me has been to nudge me towards you and my entire purpose for existence has been to find you. Am I finally whole? Will the feeling of abject loneliness and purposelessness finally wane? Or will my search for what could finally end up in as a longing for what I had? Lover are you truly mine or has this soulless world claimed you of its own?
